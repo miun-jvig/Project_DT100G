@@ -1,0 +1,162 @@
+/*
+** Created by: Joel Viggesjöö (jovi1802@student.miun.se)
+** Assignment: Projekt in course DT100G, Mittuniversitetet
+** Date: 2022-03-20
+**
+** css-file for the project.
+**
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap'); /* Font imported from https://fonts.google.com/ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif; /* Font imported from https://fonts.google.com/ */
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: white;
+    background: linear-gradient(to right, #66696b, #9e9ca5); /* Colorshift in background from left -> right */
+}
+
+.items {
+    max-width: 45%;
+    padding: 15px 0px 75px 50px;
+    margin: 2%;
+    background-color: #46484d;
+    border-radius: 1em;
+}
+
+#createIDWrap {
+    width: 20%;
+    padding: 2%;
+    margin: 10em auto 1em auto;
+    max-width: 1050px; 
+    min-height: 10px;
+    background: #292b2f;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+#bodyWrap {
+    width: 96%;
+    padding: 2%;
+    margin: 1em auto 1em auto;
+    max-width: 960px; 
+    min-height: 10px;
+    background: #292b2f;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1em;
+    display: flex;
+}
+
+#bodyWrap #left {
+    float: left;
+    width: 18%;
+    margin-right: 3%;
+    margin-top: -3%;
+}
+
+#bodyWrap #right {
+    margin-top: 2%;
+    float: left;
+    width: 100%;
+    border-radius: 1em;
+}
+
+#bodyWrap #top {
+    padding: 2px;
+    margin-top: -5%;
+    background-color: #292b2f;
+    text-align: center;
+}
+
+#playerInfo {
+    width: 430px;
+    padding: 2%;
+    margin: -35% -2%;
+    float: right;
+    background-color: #46484d;
+    border-radius: 1em;
+}
+
+#mainfooter {
+    text-align: center;
+}
+
+#afterReserve {
+    text-align: center;
+}
+
+#class {
+    width: 50%;
+    border: 1px solid transparent;
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+}
+
+input {
+    max-width: 80%;
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+}
+input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+input[type=submit] {
+    background-color: DodgerBlue;
+    color: #fff;
+}
+.autocomplete-items div {
+    max-width: 80%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #56B4E9;
+    border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #0072B2;
+}
+.autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: #0072B2 !important;
+    color: #ffffff;
+}
+
+.btn {
+    color: white;
+    margin-left: 10%;
+    font-size: 60px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+a:link 
+{ 
+	color: white; /* Ändrar färg av länkar */
+} 
+a:hover 
+{ 
+	color: #404040; /* Ändrar färg av länkar */
+} 
+a:active 
+{ 
+	color: green; /* Ändrar färg av länkar */
+}
+a:visited
+{
+	color: white; /* Ändrar färg av länkar */
+}
